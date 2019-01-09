@@ -11,7 +11,7 @@ You should be able to swap out tiny-redux.js with regular redux and everything s
 ## Loading this in a browser
 If you're dying to run this...
 
-On chrome opening index.html will work, but you'll need to use a webserver like https://www.npmjs.com/package/http-server to to serve up the js files to get around cors limitations (because of the `script type="module"`).
+Opening index.html in Chrome will work, but you'll need to use a webserver like https://www.npmjs.com/package/http-server to serve up the js files to get around CORS limitations (because of the `script type="module"`).
 
 ## Loading this in node.js
 You could just paste tiny-redux.js into index.js and run `node index.js`
